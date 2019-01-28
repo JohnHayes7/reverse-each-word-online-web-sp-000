@@ -3,7 +3,6 @@ def reverse_each_word(sentence)
   new_array = []
   rev_array.collect do |word|
     word.reverse
-    rev_array.join(" ")
   end
 end
 
